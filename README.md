@@ -26,18 +26,30 @@
 - 각 라운드 마감 시점에서 최종 순위 및 승점을 해당 라운드의 최종 점수로 함.
 - 특정 라운드에서 마감일 이전에 달성한 순위 및 승점은 누적되지 않음.
 - 각 라운드에서 획득한 점수를 합하여 이 프로젝트의 최종 점수를 결정.
-- 각 라운드 종료 이후 상위권 참가자의 코드를 모두 공개하며, 코드에 문제가 있는 경우 퇴장 처리.
+- 각 라운드 종료 이후 상위권 참가자의 코드를 모두 공개
+- 코드에 문제가 있는 경우 퇴장 처리.
+   - 제출한 코드에서 `print()`를 사용할 수 없음.
+
+## 라운드 최종 점수 계산
+  획득한 승점 *X*에 대해 아래 수식에 근거하여 변환 계수 a와 b를 구하고, a*X* + b를 최종 점수(final score)로 한다.
+  - a*Xmax* + b = 100.
+  - a*Xmean* + b = 80.
+
 
 ## 라운드 및 제한 규칙 정의
 - 제 1 라운드
-    - 마감일: 12월 11일 금요일
+    - 마감일: 12월 11일 금요일 11:59 PM
     - 규칙: [constraints-round-01](constraints/constraints-round-01.ipynb)
+    - 명예의전당: [hall-of-fame/round-01](hall-of-fame/round-01)
+    - 최종 점수: [finalscore-round-01](finalscore-round-01.md)
 - 제 2 라운드
-    - 마감일: 12월 15일 화요일
-    - 규칙: *추후 공지*    
+    - 마감일: 12월 15일 화요일 23:59 PM
+    - 규칙: [constraints-round-02](constraints/constraints-round-02.ipynb)
+    - 명예의전당: [hall-of-fame/round-02](hall-of-fame/round-02)
+    - 최종 점수: [finalscore-round-02](finalscore-round-02.md)
 - 제 3 라운드
-    - 마감일: 12월 18일 금요일
-    - 규칙: *추후 공지*    
+    - 마감일: 12월 18일 금요일 23:59 PM
+    - 규칙: [constraints-round-03](constraints/constraints-round-03.ipynb)   
 - 제 4 라운드
-    - 마감일: 12월 22일 화요일
+    - 마감일: 12월 17일 목요일 12:00 PM
     - 규칙: *추후 공지*    
